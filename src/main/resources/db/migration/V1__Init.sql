@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS entity_model
+(
+    id   UUID PRIMARY KEY,
+    name VARCHAR(128) NOT NULL UNIQUE
+);
